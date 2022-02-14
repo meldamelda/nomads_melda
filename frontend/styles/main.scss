@@ -421,11 +421,27 @@ header{
         }
 
         .total{
-            font-weight: 600;
+            font-weight: bold;
             color: #071c4d;
 
             span{
                 color: #FC8416;
+            }
+        }
+    }
+
+    .bank-item{
+        .description{
+            h3{
+                font-weight: 400;
+                font-size: 14px;
+                color: #071c4d;
+            }
+
+            p{
+                font-size: 14px;
+                font-weight: 300;
+                color: #b1b1b1;
             }
         }
     }
@@ -441,6 +457,33 @@ header{
 
         &:hover{
             background-color: #ffb57c;
+            color: #fff;
+        }
+    }
+}
+
+.section-success{
+    height: 89vh;
+
+    h1{
+        font-weight: 600;
+        font-size: 26px;
+        color: #071c4d;
+    }
+
+    p{
+        font-weight: 300;
+        font-size: 18px;
+        color: #b1b1b1;
+    }
+
+    .btn-home-page{
+        border-radius: 4px;
+        background-color: #071c4d;
+        color: #fff;
+
+        &:hover{
+            background-color: #4664aa;
             color: #fff;
         }
     }
